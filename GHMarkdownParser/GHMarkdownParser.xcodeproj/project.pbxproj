@@ -25,6 +25,24 @@
 		A7C5261C13E7010A0003EEE5 /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261B13E7010A0003EEE5 /* tags.h */; };
 		A7C5261E13E7012B0003EEE5 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261D13E7012B0003EEE5 /* setup.c */; };
 		A7C5262013E7013E0003EEE5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261F13E7013E0003EEE5 /* config.h */; };
+		C77290E716D0957700147379 /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */; };
+		C77290E816D0957700147379 /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260313E700910003EEE5 /* mkdio.c */; };
+		C77290E916D0957700147379 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260713E700A00003EEE5 /* markdown.c */; };
+		C77290EA16D0957700147379 /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260B13E700AD0003EEE5 /* generate.c */; };
+		C77290EB16D0957700147379 /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260D13E700B80003EEE5 /* resource.c */; };
+		C77290EC16D0957700147379 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260F13E700C20003EEE5 /* xml.c */; };
+		C77290ED16D0957700147379 /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261113E700CB0003EEE5 /* Csio.c */; };
+		C77290EE16D0957700147379 /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261313E700D50003EEE5 /* emmatch.c */; };
+		C77290EF16D0957700147379 /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261513E700DE0003EEE5 /* html5.c */; };
+		C77290F016D0957700147379 /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261713E700E80003EEE5 /* tags.c */; };
+		C77290F116D0957700147379 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261D13E7012B0003EEE5 /* setup.c */; };
+		C77290F216D0957700147379 /* NSString+GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */; };
+		C77290F416D0957700147379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C525F513E6FE1A0003EEE5 /* Foundation.framework */; };
+		C77290F616D0957700147379 /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5260413E700910003EEE5 /* mkdio.h */; };
+		C77290F716D0957700147379 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5260813E700A00003EEE5 /* markdown.h */; };
+		C77290F816D0957700147379 /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261B13E7010A0003EEE5 /* tags.h */; };
+		C77290F916D0957700147379 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261F13E7013E0003EEE5 /* config.h */; };
+		C77290FA16D0957700147379 /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +68,7 @@
 		A7C5261B13E7010A0003EEE5 /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tags.h; path = ../../discount/tags.h; sourceTree = "<group>"; };
 		A7C5261D13E7012B0003EEE5 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = ../../discount/setup.c; sourceTree = "<group>"; };
 		A7C5261F13E7013E0003EEE5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../discount/config.h; sourceTree = "<group>"; };
+		C77290FE16D0957700147379 /* libGHMarkdownParserMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHMarkdownParserMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77290F316D0957700147379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77290F416D0957700147379 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */,
+				C77290FE16D0957700147379 /* libGHMarkdownParserMac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,12 +183,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C77290F516D0957700147379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77290F616D0957700147379 /* mkdio.h in Headers */,
+				C77290F716D0957700147379 /* markdown.h in Headers */,
+				C77290F816D0957700147379 /* tags.h in Headers */,
+				C77290F916D0957700147379 /* config.h in Headers */,
+				C77290FA16D0957700147379 /* NSString+GHMarkdownParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */ = {
+		A7C525F113E6FE1A0003EEE5 /* GHMarkdownParseriOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */;
+			buildConfigurationList = A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParseriOS" */;
 			buildPhases = (
 				A7C525EE13E6FE1A0003EEE5 /* Sources */,
 				A7C525EF13E6FE1A0003EEE5 /* Frameworks */,
@@ -170,9 +210,26 @@
 			);
 			dependencies = (
 			);
-			name = GHMarkdownParser;
+			name = GHMarkdownParseriOS;
 			productName = GHMarkdownParser;
 			productReference = A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C77290E516D0957700147379 /* GHMarkdownParserMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77290FB16D0957700147379 /* Build configuration list for PBXNativeTarget "GHMarkdownParserMac" */;
+			buildPhases = (
+				C77290E616D0957700147379 /* Sources */,
+				C77290F316D0957700147379 /* Frameworks */,
+				C77290F516D0957700147379 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHMarkdownParserMac;
+			productName = GHMarkdownParser;
+			productReference = C77290FE16D0957700147379 /* libGHMarkdownParserMac.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */,
+				A7C525F113E6FE1A0003EEE5 /* GHMarkdownParseriOS */,
+				C77290E516D0957700147379 /* GHMarkdownParserMac */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +276,25 @@
 				A7C5261913E700E80003EEE5 /* tags.c in Sources */,
 				A7C5261E13E7012B0003EEE5 /* setup.c in Sources */,
 				A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77290E616D0957700147379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77290E716D0957700147379 /* GHMarkdownParser.m in Sources */,
+				C77290E816D0957700147379 /* mkdio.c in Sources */,
+				C77290E916D0957700147379 /* markdown.c in Sources */,
+				C77290EA16D0957700147379 /* generate.c in Sources */,
+				C77290EB16D0957700147379 /* resource.c in Sources */,
+				C77290EC16D0957700147379 /* xml.c in Sources */,
+				C77290ED16D0957700147379 /* Csio.c in Sources */,
+				C77290EE16D0957700147379 /* emmatch.c in Sources */,
+				C77290EF16D0957700147379 /* html5.c in Sources */,
+				C77290F016D0957700147379 /* tags.c in Sources */,
+				C77290F116D0957700147379 /* setup.c in Sources */,
+				C77290F216D0957700147379 /* NSString+GHMarkdownParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +371,34 @@
 			};
 			name = Release;
 		};
+		C77290FC16D0957700147379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DSTROOT = /tmp/GHMarkdownParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GHMarkdownParserMac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C77290FD16D0957700147379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DSTROOT = /tmp/GHMarkdownParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GHMarkdownParserMac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -306,11 +411,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */ = {
+		A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParseriOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7C5260013E6FE1A0003EEE5 /* Debug */,
 				A7C5260113E6FE1A0003EEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77290FB16D0957700147379 /* Build configuration list for PBXNativeTarget "GHMarkdownParserMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77290FC16D0957700147379 /* Debug */,
+				C77290FD16D0957700147379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
